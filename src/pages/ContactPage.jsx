@@ -220,9 +220,9 @@ export const ContactPage = ({
   const departments = [
     {
       icon: <Calendar className="w-5 h-5 text-sky-500" />,
-      title: 'Reservations & Villa Booking',
+      title: 'Reservations & Booking',
       email: 'reservations@strongmeresort.com',
-      desc: 'Villa availability, seasonal packages, and multi-generational family stays.',
+      desc: 'rooms availability, seasonal packages, and multi-generational family stays.',
     },
     {
       icon: <Utensils className="w-5 h-5 text-amber-500" />,
@@ -1370,7 +1370,7 @@ export const ContactPage = ({
                   }}
                   className="py-3 px-6 bg-slate-800 hover:bg-slate-700 text-slate-200 font-bold text-xs sm:text-sm rounded-xl transition-all cursor-pointer"
                 >
-                  Explore Ocean Villas
+                  Explore The Rooms &amp; Suites
                 </button>
 
               </div>

@@ -85,7 +85,7 @@ export const RoomsSection = ({
             </h3>
 
             <p className="rooms-intro-text">
-              From open-plan ocean villas to quiet garden suites, each room pairs soft natural textures with
+              From open-plan rooms to quiet garden suites, each room pairs soft natural textures with
               thoughtful comforts and a view of the coast. Choose the space that fits your stay: wake beside
               the water, find shade among the palms, or stretch out above the shoreline.
             </p>
@@ -118,7 +118,7 @@ export const RoomsSection = ({
                 label: 'Ocean villas',
                 note: 'Open views, private terraces',
                 image: RESORT_ROOMS[0].image,
-                alt: 'Bright oceanfront villa bedroom with a view of the sea',
+                alt: 'Bright oceanfront bedroom with a view of the sea',
               },
               {
                 key: 'bungalow',
@@ -204,7 +204,7 @@ export const RoomsSection = ({
                 activeCategory === 'villa' ? 'active' : ''
               }`}
             >
-              Ocean Villas
+              Ocean Rooms
             </button>
 
 
@@ -247,7 +247,7 @@ export const RoomsSection = ({
             </option>
 
             <option value="villa">
-              Ocean Villas
+              Ocean Rooms
             </option>
 
             <option value="bungalow">
@@ -459,7 +459,7 @@ export const RoomsSection = ({
                   onClick={() => onOpenRoomModal(room)}
                   className="flex-1 py-2.5 px-4 rounded-xl border border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-800 text-slate-700 dark:text-slate-200 text-xs font-semibold transition-colors cursor-pointer"
                 >
-                  Explore Villa Details
+                  Explore Room Details
                 </button>
 
 
@@ -499,7 +499,7 @@ export const RoomsSection = ({
             >
 
               <span>
-                Explore All Sanctuary Villas
+                Explore All Rooms
               </span>
 
               <ArrowRight className="w-4 h-4" />

@@ -38,7 +38,7 @@ export const AboutPage = ({
     {
       year: '2022',
       title: 'Biophilic Blueprint & Soil Care',
-      desc: 'Partnering with master sustainable architects, every villa was planned to follow natural wind corridors and coastal topography without felling ancient trees.',
+      desc: 'Partnering with master sustainable architects, every room was planned to follow natural wind corridors and coastal topography without felling ancient trees.',
       icon: <Leaf className="w-5 h-5 text-emerald-500" />
     },
 
@@ -108,7 +108,7 @@ export const AboutPage = ({
     {
       icon: <BookOpen className="w-6 h-6 text-sky-500" />,
       title: 'Mindful Stillness & Journaling Ritual',
-      desc: 'Each villa features our signature skeuomorphic leather journal. Writing by hand beside the sea grounds the nervous system and creates timeless keepsakes.'
+      desc: 'Each room features our signature skeuomorphic leather journal. Writing by hand beside the sea grounds the nervous system and creates timeless keepsakes.'
     },
 
     {
@@ -260,11 +260,11 @@ export const AboutPage = ({
               </h2>
 
               <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">
-                In 2021, our founding team sought out a remote peninsula where the ocean winds remained clean and the nights were free of urban light pollution. When we discovered the wild sunflower bluffs overlooking turquoise waters, we made a commitment: never build more than twelve private villas, and dedicate four times as much land to native floral preservation.
+                In 2021, our founding team sought out a remote peninsula where the ocean winds remained clean and the nights were free of urban light pollution. When we discovered the wild sunflower bluffs overlooking turquoise waters, we made a commitment: never build more than twelve private rooms, and dedicate four times as much land to native floral preservation.
               </p>
 
               <p className="text-sm sm:text-base text-slate-600 dark:text-slate-300 leading-relaxed">
-                Every villa is positioned so that the sunrise enters naturally through floor-to-ceiling glass, eliminating the need for digital alarms. On every cedar writing desk rests a bound archival notebook, inviting guests to slow down, write down their reflections, and rediscover their inner voice.
+                Every room is positioned so that the sunrise enters naturally through floor-to-ceiling glass, eliminating the need for digital alarms. On every cedar writing desk rests a bound archival notebook, inviting guests to slow down, write down their reflections, and rediscover their inner voice.
               </p>
 
 
@@ -290,7 +290,7 @@ export const AboutPage = ({
                   </strong>
 
                   <span className="text-slate-500 dark:text-slate-400">
-                    Intimate low-density ocean villas
+                    Intimate low-density hotel rooms
                   </span>
 
                 </div>
@@ -647,14 +647,14 @@ export const AboutPage = ({
               </h3>
 
               <p className="text-xs sm:text-sm text-slate-300">
-                Explore our private ocean villas or connect with our concierge team to design your customized retreat.
+                Explore our private rooms or connect with our concierge team to design your customized retreat.
               </p>
 
 
               {/* CTA Buttons */}
               <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
 
-                {/* Explore Ocean Villas */}
+                {/* Explore Ocean Rooms */}
                 <button
                   type="button"
                   onClick={() => {
@@ -667,7 +667,7 @@ export const AboutPage = ({
                   className="py-3 px-6 bg-sky-500 hover:bg-sky-600 text-white font-bold text-xs sm:text-sm rounded-xl shadow-lg shadow-sky-500/25 transition-all cursor-pointer flex items-center gap-2"
                 >
                   <span>
-                    Explore Ocean Villas
+                    Explore Rooms
                   </span>
 
                   <ArrowRight className="w-4 h-4" />

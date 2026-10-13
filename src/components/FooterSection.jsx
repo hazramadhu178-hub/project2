@@ -37,7 +37,7 @@ export const FooterSection = ({ onNavigateAbout, onNavigateRooms, onNavigateBeac
 
             <p className="text-xs leading-relaxed max-w-sm">
               StrongMe Coastal Sanctuary & Mindful Journaling Retreat. 
-              An intimate haven of sunflower fields, private ocean villas, and tactile reflection rituals designed to restore your inner calm.
+              An intimate haven of sunflower fields and tactile reflection rituals designed to restore your inner calm.
             </p>
 
             <div className="flex items-center gap-2 text-xs text-emerald-600 dark:text-emerald-400 font-semibold bg-emerald-50 dark:bg-emerald-950/30 px-3 py-1.5 rounded-xl w-fit">
@@ -67,7 +67,7 @@ export const FooterSection = ({ onNavigateAbout, onNavigateRooms, onNavigateBeac
                   onClick={onNavigateRooms}
                   className="hover:text-sky-500 transition-colors text-left cursor-pointer"
                 >
-                  Suites &amp; Ocean Villas (Rooms)
+                  Suites &amp; Ocean Rooms (Rooms)
                 </button>
               </li>
               <li>

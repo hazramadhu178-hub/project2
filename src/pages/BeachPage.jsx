@@ -172,7 +172,7 @@ export const BeachPage = ({
             </h1>
 
             <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-              Step from your private villa onto warm golden sands. From Tibetan singing bowls at dawn
+              Step from your room onto warm golden sands. From Tibetan singing bowls at dawn
               to crystal kayaking above coral reefs and acoustic fires under the stars,
               every seaside ritual is crafted to restore your peace of mind.
             </p>
@@ -737,11 +737,6 @@ export const BeachPage = ({
               <h3 className="text-2xl sm:text-4xl font-extrabold">
                 Step Into the Rhythm of the Waves
               </h3>
-
-
-              <p className="text-xs sm:text-sm text-slate-300">
-                Reserve your oceanfront villa or connect with our hosts to arrange sunset shoreline walks and private sound baths.
-              </p>
 
 
               {/* CTA buttons */}

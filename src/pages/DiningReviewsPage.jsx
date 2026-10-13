@@ -69,7 +69,7 @@ export const DiningReviewsPage = ({
     tripType: 'Solo Mindful',
     title: '',
     comment: '',
-    stayedRoom: 'Sunflower Ocean Cliff Villa',
+    stayedRoom: 'Sunflower Rooms',
   });
 
 
@@ -201,7 +201,7 @@ export const DiningReviewsPage = ({
       tripType: 'Solo Mindful',
       title: '',
       comment: '',
-      stayedRoom: 'Sunflower Ocean Cliff Villa',
+      stayedRoom: 'Sunflower Rooms',
     });
 
 
@@ -246,7 +246,7 @@ export const DiningReviewsPage = ({
       icon: (
         <Coffee className="w-5 h-5 text-amber-500" />
       ),
-      title: 'In-Villa Terrace Dining Service',
+      title: 'In-Room Terrace Dining Service',
       desc: 'Any breakfast or candlelit dinner can be prepared and served privately on your private ocean deck.'
     }
   ];
@@ -271,8 +271,8 @@ export const DiningReviewsPage = ({
 
     {
       id: 'dining-faq-3',
-      q: 'Is in-villa terrace dining available at any time?',
-      a: 'Yes. In-villa dining is available from 07:00 AM to 10:30 PM with zero delivery surcharges. Breakfast can be ordered the evening before for a sunrise delivery at your exact requested time.'
+      q: 'Is Room terrace dining available at any time?',
+      a: 'Yes. Rooms dining is available from 07:00 AM to 10:30 PM with zero delivery surcharges. Breakfast can be ordered the evening before for a sunrise delivery at your exact requested time.'
     },
 
     {
@@ -565,7 +565,7 @@ export const DiningReviewsPage = ({
                   <span className="text-xs text-slate-400 flex items-center gap-1">
                     <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500" />
 
-                    Complimentary In-Villa Dining Setup
+                    Complimentary In-Room Dining Setup
                   </span>
 
                 </div>
@@ -899,7 +899,7 @@ export const DiningReviewsPage = ({
                     {/* Villa Stayed */}
                     <div>
                       <label className="text-xs font-semibold text-slate-700 dark:text-slate-300 block mb-1">
-                        Sanctuary Villa Stayed
+                        Sanctuary Rooms Stayed
                       </label>
 
                       <select
@@ -912,8 +912,8 @@ export const DiningReviewsPage = ({
                         }
                         className="w-full px-3 py-2 rounded-xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 text-xs text-slate-900 dark:text-white outline-none"
                       >
-                        <option value="Sunflower Ocean Cliff Villa">
-                          Sunflower Ocean Cliff Villa
+                        <option value="Sunflower Rooms">
+                          Sunflower Rooms
                         </option>
 
                         <option value="Overwater Serenity Sanctuary">
@@ -1272,7 +1272,7 @@ export const DiningReviewsPage = ({
 
 
               <p className="text-xs sm:text-sm text-slate-300">
-                Reserve your table at our seaside restaurants or book your private ocean villa with complimentary daily breakfast.
+                Reserve your table at our seaside restaurants or book your private rooms with complimentary daily breakfast.
               </p>
 
 

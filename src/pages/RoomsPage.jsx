@@ -67,18 +67,18 @@ export const RoomsPage = ({
   const roomFaqs = [
     {
       id: 'room-faq-1',
-      q: 'What time is check-in and check-out for our villa?',
+      q: 'What time is check-in and check-out for our room?',
       a: 'Check-in begins at 3:00 PM and check-out is by 11:00 AM. If you arrive early or wish to linger after checkout, our concierge provides access to the oceanfront lounge, luggage stewardship, and changing pavilions.'
     },
     {
       id: 'room-faq-2',
       q: 'Is gourmet farm-to-table breakfast included with all rooms?',
-      a: 'Yes. Every booking includes daily complimentary breakfast served either at The Sunflower Pavilion or delivered privately to your villa terrace with pour-over coffee, fresh tropical fruits, and artisanal sourdough.'
+      a: 'Yes. Every booking includes daily complimentary breakfast served either at The Sunflower Pavilion or delivered privately to your room terrace with pour-over coffee, fresh tropical fruits, and artisanal sourdough.'
     },
     {
       id: 'room-faq-3',
       q: 'What is the private heated plunge pool temperature?',
-      a: 'Our cliffside and ocean villa plunge pools are maintained at a soothing 29°C to 31°C (84°F–88°F) using clean geothermal loops, ensuring ideal comfort year-round under sunny skies or starlit evenings.'
+      a: 'Our cliffside and room plunge pools are maintained at a soothing 29°C to 31°C (84°F–88°F) using clean geothermal loops, ensuring ideal comfort year-round under sunny skies or starlit evenings.'
     },
     {
       id: 'room-faq-4',
@@ -87,7 +87,7 @@ export const RoomsPage = ({
     },
     {
       id: 'room-faq-5',
-      q: 'Can we request customized pillows, scents, or in-villa soundscapes?',
+      q: 'Can we request customized pillows, scents, or soundscapes?',
       a: 'Prior to arrival, our wellness team sends a bespoke sanctuary preference card where you can select your preferred aromatherapy blend (wild chamomile, coastal eucalyptus, or hinoki cedarwood) and pillow firmness.'
     }
   ];
@@ -95,7 +95,7 @@ export const RoomsPage = ({
   const inSuiteInclusions = [
     {
       icon: <Coffee className="w-5 h-5 text-amber-500" />,
-      title: 'Daily In-Villa Breakfast',
+      title: 'Daily Breakfast',
       desc: 'Farm-fresh organic breakfast and pour-over single-origin coffee delivered directly to your terrace.'
     },
     {
@@ -153,7 +153,7 @@ export const RoomsPage = ({
               Sanctuaries Crafted for Solitude, Rest &amp; Horizon Views
             </h1>
             <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-              Designed in harmony with the coastal topography, each villa blends natural cedar timber, 
+              Designed in harmony with the coastal topography, each room blends natural cedar timber, 
               limestone finishes, and expansive floor-to-ceiling glass. Wake to gentle tidal breezes, 
               enjoy private heated plunge pools, and discover the quiet luxury of unhurried living.
             </p>
@@ -192,7 +192,7 @@ export const RoomsPage = ({
             <div className="grid grid-cols-2 sm:flex sm:flex-wrap items-stretch sm:items-center gap-2 w-full lg:w-auto">
               {[
                 { key: 'all', label: 'All Sanctuaries' },
-                { key: 'villa', label: 'Ocean Cliff Villas' },
+                { key: 'villa', label: 'rooms' },
                 { key: 'bungalow', label: 'Overwater Bungalows' },
                 { key: 'suite', label: 'Garden & Studios' },
               ].map((tab) => (

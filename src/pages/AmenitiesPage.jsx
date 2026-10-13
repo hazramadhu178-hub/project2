@@ -53,7 +53,7 @@ export const AmenitiesPage = ({
         'Custom organic aromatherapy blending',
         'Open-air cedar soaking tubs with sea salt infusions',
         'Sound bath integration with Tibetan harmonic bowls',
-        'Complimentary in-villa spa setup upon request'
+        'Complimentary spa setup upon request'
       ]
     },
 
@@ -95,14 +95,13 @@ export const AmenitiesPage = ({
       id: 'gastronomy-dining',
       category: 'dining',
       title: 'Farm-to-Table Gastronomy & Private Terrace Dining',
-      subtitle: 'Sustainable coastal bounty and bespoke in-villa dining rituals',
+      subtitle: 'Sustainable coastal bounty and bespoke and dining rituals',
       hours: '07:00 AM – 11:00 PM',
       highlight: 'Estate Organic Gardens',
       image: 'https://images.pexels.com/photos/30660306/pexels-photo-30660306.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200',
       description: 'Every dish celebrates local fishing cooperatives and morning harvests from our 4.2-hectare organic estate, paired with organic biodynamic wines and floral mocktails.',
       perks: [
         'Daily complimentary gourmet breakfast included',
-        'Private chef dining prepared on your villa deck',
         'Plant-forward, gluten-free, and allergen-sensitive tasting menus',
         'Sunset raw bar & artisanal botanical cocktails'
       ]
@@ -174,7 +173,7 @@ export const AmenitiesPage = ({
 
     {
       time: '08:00 AM',
-      title: 'In-Villa Artisanal Breakfast Delivery',
+      title: 'Room Artisanal Breakfast Delivery',
       desc: 'Freshly baked sourdough, tropical dragonfruit bowls, and pour-over coffee brought to your terrace.',
       icon: <Coffee className="w-4 h-4 text-sky-500" />
     },
@@ -222,8 +221,8 @@ export const AmenitiesPage = ({
 
     {
       id: 'amenity-faq-2',
-      q: 'Can spa massages and treatments be experienced in our private villa?',
-      a: 'Absolutely. Our wellness team can transform your private villa terrace or indoor living room into an open-air treatment sanctuary with mobile massage beds, essential oils, and sound bowls.'
+      q: 'Can spa massages and treatments be experienced in our private room?',
+      a: 'Absolutely. Our wellness team can transform your private room terrace or indoor living room into an open-air treatment sanctuary with mobile massage beds, essential oils, and sound bowls.'
     },
 
     {
@@ -235,7 +234,7 @@ export const AmenitiesPage = ({
     {
       id: 'amenity-faq-4',
       q: 'Is high-speed Wi-Fi available throughout the entire estate?',
-      a: 'Yes. Quiet, ultra-high-speed fiber Wi-Fi is seamlessly available across all 12 villas, the infinity pool deck, beach cabanas, and the mindful library.'
+      a: 'Yes. Quiet, ultra-high-speed fiber Wi-Fi is seamlessly available across all 12 rooms, the infinity pool deck, beach cabanas, and the mindful library.'
     },
 
     {
@@ -299,7 +298,7 @@ export const AmenitiesPage = ({
             </h1>
 
             <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-              From heated mineral infinity pools and open-air botanical spa pavilions to private in-villa dining
+              From heated mineral infinity pools and open-air botanical spa pavilions to private in-room dining
               and 24-hour concierge stewardship, discover our comprehensive resort amenities.
             </p>
 
@@ -666,7 +665,7 @@ export const AmenitiesPage = ({
             </h2>
 
             <p className="section-description">
-              Answers regarding pool access, in-villa treatments, breakfast hours, and concierge logistics.
+              Answers regarding pool access, room service, breakfast hours, and concierge logistics.
             </p>
 
           </div>
@@ -761,7 +760,7 @@ export const AmenitiesPage = ({
               </h3>
 
               <p className="text-xs sm:text-sm text-slate-300">
-                Select your private villa sanctuary or connect with our concierge desk to arrange personalized treatments and transportation.
+                Select your private room sanctuary or connect with our concierge desk to arrange personalized treatments and transportation.
               </p>
 
 

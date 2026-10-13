@@ -46,8 +46,8 @@ export const LocationFAQPage = ({ onNavigateHome, onNavigateSection }) => {
       icon: <Car className="w-6 h-6 text-sky-500" />,
       title: 'Airport Transfer Shuttle',
       time: '45 Minutes Drive',
-      desc: 'Complimentary with all villa bookings. Our driver meets you at baggage claim with chilled eucalyptus towels and estate refreshments.',
-      highlight: 'Complimentary with villa'
+      desc: 'Complimentary with all room bookings. Our driver meets you at baggage claim with chilled eucalyptus towels and estate refreshments.',
+      highlight: 'Complimentary with room'
     },
     {
       icon: <Train className="w-6 h-6 text-emerald-500" />,
@@ -341,7 +341,7 @@ export const LocationFAQPage = ({ onNavigateHome, onNavigateSection }) => {
               Clarity &amp; Detailed Sanctuary Answers
             </h2>
             <p className="section-description">
-              Find instant answers regarding reservations, villa amenities, dietary requirements, wellness classes, and arrival logistics.
+              Find instant answers regarding reservations, room amenities, dietary requirements, wellness classes, and arrival logistics.
             </p>
           </div>
 
@@ -477,7 +477,7 @@ export const LocationFAQPage = ({ onNavigateHome, onNavigateSection }) => {
                 Your Sanctuary by the Sea Awaits
               </h3>
               <p className="text-xs sm:text-sm text-slate-300">
-                Explore our ocean villas or reserve your stay with complimentary airport shuttles and daily gourmet breakfast.
+                Explore our rooms or reserve your stay with complimentary airport shuttles and daily gourmet breakfast.
               </p>
 
               <div className="flex flex-wrap items-center justify-center gap-3 pt-2">
@@ -489,7 +489,7 @@ export const LocationFAQPage = ({ onNavigateHome, onNavigateSection }) => {
                   }}
                   className="py-3 px-6 bg-sky-500 hover:bg-sky-600 text-white font-bold text-xs sm:text-sm rounded-xl shadow-lg shadow-sky-500/25 transition-all cursor-pointer flex items-center gap-2"
                 >
-                  <span>Explore Ocean Villas</span>
+                  <span>Explore Rooms</span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
                 <button

@@ -67,7 +67,7 @@ export const GalleryPage = ({ onNavigateHome, onNavigateSection }) => {
     },
     {
       title: 'Overwater Lagoon Boardwalk',
-      location: 'South Sanctuary Villas',
+      location: 'South Sanctuary Rooms',
       time: 'Best at Sunset (06:45 PM)',
       desc: 'A floating timber walkway suspended above crystal waters reflecting the apricot and lilac evening sky.',
       icon: <Compass className="w-5 h-5 text-sky-500" />
@@ -116,7 +116,7 @@ export const GalleryPage = ({ onNavigateHome, onNavigateSection }) => {
               Glimpses of Coastal Peace Through the Lens
             </h1>
             <p className="text-base sm:text-lg text-slate-600 dark:text-slate-300 leading-relaxed">
-              Explore our sun-drenched floral pathways, glass lagoon villas, farm-to-table culinary artistry, 
+              Explore our sun-drenched floral pathways, rooms, farm-to-table culinary artistry, 
               and the unhurried moments of stillness captured across our 4.2-hectare private coastal estate.
             </p>
           </div>
@@ -291,13 +291,13 @@ export const GalleryPage = ({ onNavigateHome, onNavigateSection }) => {
                   Capturing Stillness, Not Just Images
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
-                  We encourage our guests to practice intentional looking. Each villa is furnished with a vintage Polaroid instant camera and fresh film packs. Rather than taking dozens of digital photos, you are invited to capture a single, cherished sensory memory each day and paste it directly into your leather StrongMe reflection journal.
+                  We encourage our guests to practice intentional looking. Each room is furnished with a vintage Polaroid instant camera and fresh film packs. Rather than taking dozens of digital photos, you are invited to capture a single, cherished sensory memory each day and paste it directly into your leather StrongMe reflection journal.
                 </p>
 
                 <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-2 text-xs">
                   <div className="p-3 bg-white dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-slate-700">
                     <strong className="text-slate-900 dark:text-white block text-sm mb-0.5">Instant Film</strong>
-                    <span className="text-slate-500 dark:text-slate-400">Complimentary per villa</span>
+                    <span className="text-slate-500 dark:text-slate-400">Complimentary per room</span>
                   </div>
                   <div className="p-3 bg-white dark:bg-slate-800 rounded-xl border border-slate-100 dark:border-slate-700">
                     <strong className="text-slate-900 dark:text-white block text-sm mb-0.5">Easel Stations</strong>
@@ -343,7 +343,7 @@ export const GalleryPage = ({ onNavigateHome, onNavigateSection }) => {
                 Step into These Coastal Views
               </h3>
               <p className="text-xs sm:text-sm text-slate-300">
-                Reserve your private ocean villa or connect with our hosts to plan your serene escape.
+                Reserve your private room and connect with our hosts to plan your serene escape.
               </p>
 
               <div className="flex flex-wrap items-center justify-center gap-3 pt-2">

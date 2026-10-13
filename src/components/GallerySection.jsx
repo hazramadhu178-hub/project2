@@ -95,7 +95,7 @@ export const GallerySection = ({ onOpenFullGalleryPage }) => {
           </h2>
 
           <p className="section-description">
-            Explore our sun-drenched floral pathways, glass lagoon villas,
+            Explore our sun-drenched floral pathways, glass lagoon Rooms,
             farm-to-table cuisine, and the tranquil moments waiting for you.
           </p>
 
@@ -109,7 +109,7 @@ export const GallerySection = ({ onOpenFullGalleryPage }) => {
 
             {[
               { key: 'all', label: 'All Photos' },
-              { key: 'suites', label: 'Suites & Villas' },
+              { key: 'suites', label: 'Suites' },
               { key: 'beach', label: 'Beach & Lagoon' },
               { key: 'wellness', label: 'Wellness & Spa' },
               { key: 'dining', label: 'Dining' },
@@ -140,7 +140,7 @@ export const GallerySection = ({ onOpenFullGalleryPage }) => {
             aria-label="Filter gallery category"
           >
             <option value="all">All Photos</option>
-            <option value="suites">Suites & Villas</option>
+            <option value="suites">Suites</option>
             <option value="beach">Beach & Lagoon</option>
             <option value="wellness">Wellness & Spa</option>
             <option value="dining">Dining</option>

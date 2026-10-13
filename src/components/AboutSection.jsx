@@ -27,7 +27,7 @@ export const AboutSection = ({ onOpenFullAboutPage }) => {
     {
       icon: <Heart className="w-6 h-6 text-rose-500" />,
       title: 'Mindful Sanctuary Hospitality',
-      desc: 'No hurried schedules. Intimate villas designed with natural teakwood, outdoor rainwater baths, and dedicated wellness concierges.',
+      desc: 'No hurried schedules. Intimate rooms designed with natural teakwood, outdoor rainwater baths, and dedicated wellness concierges.',
     },
   ];
 
@@ -43,7 +43,7 @@ export const AboutSection = ({ onOpenFullAboutPage }) => {
       ),
       label: 'Guest Serenity Rating',
     },
-    { value: '12 Only', label: 'Exclusive Private Villas' },
+    { value: '12 Only', label: 'Exclusive Private Rooms' },
   ];
 
   return (

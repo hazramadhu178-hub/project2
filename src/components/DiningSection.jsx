@@ -289,12 +289,12 @@ export const DiningSection = ({
                 </button>
 
 
-                {/* In-Villa Dining */}
+                {/* Dining */}
                 <span className="text-xs text-slate-400 hidden sm:inline flex items-center gap-1">
 
                   <Check className="w-3.5 h-3.5 text-emerald-500" />
 
-                  In-Villa Dining also available
+                  In-Hotel Dining also available
 
                 </span>
 

@@ -18,7 +18,7 @@ const privacyBlocks = [
   {
     id: 'p1',
     title: '1. What Personal Information We Collect',
-    body: 'Basic identity and contact details — your name, email address, phone number and postal address — plus stay details such as arrival and departure dates, number of guests, villa preference, and any accessibility, dietary or celebration notes you choose to share. We also collect technical data: IP address, browser type, device and the pages you visit. Payment card numbers are never stored on our servers; they are handled directly by our PCI-DSS compliant payment provider.',
+    body: 'Basic identity and contact details — your name, email address, phone number and postal address — plus stay details such as arrival and departure dates, number of guests, Rooms preference, and any accessibility, dietary or celebration notes you choose to share. We also collect technical data: IP address, browser type, device and the pages you visit. Payment card numbers are never stored on our servers; they are handled directly by our PCI-DSS compliant payment provider.',
   },
 
   {
@@ -36,7 +36,7 @@ const privacyBlocks = [
   {
     id: 'p4',
     title: '4. How Information Is Used & Protected',
-    body: 'Information is used to prepare your villa, arrange transfers, reserve dining tables, personalise wellness rituals, process payments and meet legal accounting obligations — nothing else. Protection includes TLS encryption in transit, encrypted storage at rest, role-based staff access on a need-to-know basis, signed confidentiality agreements and annual security reviews. Access, correction or deletion requests can be sent to privacy@strongmeresort.com; we respond within 30 days.',
+    body: 'Information is used to prepare your Rooms, arrange transfers, reserve dining tables, personalise wellness rituals, process payments and meet legal accounting obligations — nothing else. Protection includes TLS encryption in transit, encrypted storage at rest, role-based staff access on a need-to-know basis, signed confidentiality agreements and annual security reviews. Access, correction or deletion requests can be sent to privacy@strongmeresort.com; we respond within 30 days.',
   },
 ];
 
@@ -55,7 +55,7 @@ const termsBlocks = [
   {
     id: 't2',
     title: '2. Booking Conditions',
-    body: 'A reservation is confirmed once you receive a written confirmation code and any required deposit has cleared. The lead guest must be at least 18 years old and is authorised to accept these conditions for everyone on the booking. Quoted rates are per villa per night in USD and include daily farm-to-table breakfast, scheduled wellness classes, Wi-Fi and estate access; applicable taxes and a 10% sanctuary service charge are added at checkout.',
+    body: 'A reservation is confirmed once you receive a written confirmation code and any required deposit has cleared. The lead guest must be at least 18 years old and is authorised to accept these conditions for everyone on the booking. Quoted rates are per Rooms per night in USD and include daily farm-to-table breakfast, scheduled wellness classes, Wi-Fi and estate access; applicable taxes and a 10% sanctuary service charge are added at checkout.',
   },
 
   {
@@ -92,7 +92,7 @@ const cancellationBlocks = [
   {
     id: 'c3',
     title: '3. No-Show Policy',
-    body: 'If we receive no communication by 10:00 PM on the arrival date, the reservation is recorded as a no-show: the first night is charged in full and the remaining nights are released without penalty. Arriving late is always welcome at any hour — a quick message keeps your villa held for you. No-shows on prepaid non-refundable rates are charged for the full stay.',
+    body: 'If we receive no communication by 10:00 PM on the arrival date, the reservation is recorded as a no-show: the first night is charged in full and the remaining nights are released without penalty. Arriving late is always welcome at any hour — a quick message keeps your Rooms held for you. No-shows on prepaid non-refundable rates are charged for the full stay.',
   },
 
   {
